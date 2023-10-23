@@ -77,7 +77,7 @@ with st.form(key="my_form"):
         else:
             @st.cache(allow_output_mutation=True)
             def load_model():
-                return KeyBERT("distilbert-base-nli-mean-tokens")
+                return KeyBERT("distiluse-base-multilingual-cased-v1")
 
             kw_model = load_model()
 
