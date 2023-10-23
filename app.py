@@ -61,7 +61,7 @@ with st.form(key="my_form"):
     with c1:
         ModelType = st.radio(
             "Choose your model",
-            ["DistilBERT (Default)", "Flair"],
+            ["distiluse-base-multilingual-cased-v1", "Flair"],
             help="At present, you can choose between 2 models (Flair or DistilBERT) to embed your text. More to come!",
         )
 
